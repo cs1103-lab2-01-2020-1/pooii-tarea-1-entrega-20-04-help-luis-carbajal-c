@@ -1,7 +1,3 @@
-//
-// Author: marvin on 4/19/20.
-//
-
 #ifndef STACK_H
 #define STACK_H
 
@@ -13,16 +9,21 @@ private:
     vector<T> elements;
 
 public:
-    //add copy constructor
-    //add assignment constructor
+    Stack();
+    Stack(const Stack &other);
+    Stack& operator=(const Stack& other);
     void push(T const& elem);
     void pop();
-    T const& top() const;
+    T const& top();
     bool empty();
-    //overload == operator
+    bool operator==(const Stack &other);
+    bool operator!=(const Stack &other);
     void print_elements(ostream& os);
-    friend ostream& operator<<(ostream& os, Stack<T> const& s);
-
+    size_t size();
+    void emplace(T const& elem);
+    void swap(Stack& other);
+    template<typename U>
+    friend ostream& operator<<(ostream& os, Stack<U> const& s);
 };
 
 
