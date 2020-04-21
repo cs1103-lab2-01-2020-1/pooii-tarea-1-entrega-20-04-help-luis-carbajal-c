@@ -1,0 +1,3 @@
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/build/CMakeFiles/edit_cache.dir
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/build/CMakeFiles/tarea_help.dir
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/build/CMakeFiles/rebuild_cache.dir

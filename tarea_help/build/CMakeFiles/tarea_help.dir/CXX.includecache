@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/lib.h
+iostream
+-
+vector
+-
+
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/main.cpp
+template/stack.h
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/template/stack.h
+template/stack.cpp
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/template/stack.cpp
+
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/template/stack.cpp
+stack.h
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/template/stack.h
+
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/template/stack.h
+../lib.h
+C:/Users/rcarb/Git/pooii-tarea-1-entrega-20-04-help-luis-carbajal-c/tarea_help/src/lib.h
+
